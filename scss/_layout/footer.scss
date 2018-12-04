@@ -1,0 +1,22 @@
+.copyright {
+    width: 100%;
+    text-align: center;
+    order: 4;
+    font-size: 14px;
+    border-top: 1px solid gray;
+    padding: 2px 0;
+    background-color: gray;
+
+    @media (min-width: 1024px) {
+        order: 3;
+    }
+}
+
+.reprograma-link {
+    color: #7E459B;
+    font-weight: bold;
+
+    &:hover {
+        text-decoration: none;
+    }
+}
