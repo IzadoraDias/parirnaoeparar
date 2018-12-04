@@ -1,0 +1,10 @@
+.navbar{
+    &-brand img{
+        width: 30px;
+  
+    }
+}
+
+.navbar-dark .navbar-nav .nav-link{
+    color: $secondary-color;
+}
