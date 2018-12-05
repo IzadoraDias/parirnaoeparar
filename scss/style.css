@@ -14,6 +14,10 @@
   color: lightpink;
 }
 
+a {
+  text-decoration: none;
+}
+
 .copyright {
   width: 100%;
   text-align: center;
@@ -41,6 +45,7 @@
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
+  background-color: lightpink;
 }
 
 .card {
@@ -113,6 +118,7 @@
   margin-top: 150px;
 }
 
-.gallery {
-  background-color: lightpink;
+.col-lg-6 {
+  display: block;
+  justify-content: end;
 }
