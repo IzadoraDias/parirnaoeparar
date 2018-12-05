@@ -41,7 +41,6 @@
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  background-color: lightpink;
 }
 
 .card {
@@ -100,6 +99,10 @@
     width: 100%;
   }
 }
+.about {
+  background-color: lightpink;
+}
+
 .about-logo {
   width: 70%;
   margin-left: 60px;
@@ -108,4 +111,8 @@
 .about-body {
   align-items: center;
   margin-top: 150px;
+}
+
+.gallery {
+  background-color: lightpink;
 }
