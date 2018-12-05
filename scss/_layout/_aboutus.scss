@@ -3,18 +3,23 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+    
     }
     
     .card{
        width: 325px; 
        border-color: white;
        align-items: center;
+       
+       margin-left: 100px;
+       
       &-img-top{
         margin-top: 20px;
         border-radius: 50%;
         width: 170px;
         height: 170px;
         }&-title{
+        text-align: center;
         color: $primary-color;
         font-weight: bold;
         font-size: 17px;

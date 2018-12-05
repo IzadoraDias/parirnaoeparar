@@ -3,9 +3,9 @@
     text-align: center;
     order: 4;
     font-size: 14px;
-    border-top: 1px solid gray;
+    border-top: 1px solid $secondary-color;
     padding: 2px 0;
-    background-color: gray;
+    background-color: $secondary-color;
 
     @media (min-width: 1024px) {
         order: 3;
