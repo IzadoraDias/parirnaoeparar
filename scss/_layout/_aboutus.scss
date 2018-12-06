@@ -4,8 +4,13 @@
     flex-wrap: wrap;
     justify-content: center;
     background-color: $secondary-color;
+    padding: 60px;
 }
-    
+  
+.container-livia{
+  margin-top: 30px;
+}
+
     .card{
        width: 325px; 
        border-color: white;
@@ -19,8 +24,8 @@
         text-align: center;
         color: $primary-color;
         font-weight: bold;
-        font-size: 17px;
-        height: 37px;
+        font-size: 30px;
+        height: 40px;
         align-items: center;
         display: flex;
       }&-body{

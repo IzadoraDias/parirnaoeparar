@@ -18,7 +18,7 @@ p{
 .insta-link{
     color: $secondary-color;
     &:hover {
-       color: white;
+       color:rgba(255,255,255,.5);
        text-decoration: none;
     }
 }
@@ -36,7 +36,7 @@ p{
     border-top: 1px solid rgb(26, 22, 26);
     padding: 2px 0;
     background-color: rgb(26, 22, 26);
-    color: white;
+    color:rgba(255,255,255,.5);
 
     @media (min-width: 1024px) {
         order: 3;
