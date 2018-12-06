@@ -25,7 +25,7 @@ p {
 
 .contato {
   color: lightpink;
-  font-size: 25px;
+  font-size: 23px;
   background-color: #312c31;
   text-align: center;
   height: 100px;
@@ -50,8 +50,7 @@ p {
 }
 
 .instagram-icon {
-  background-color: #1a161a;
-  width: 15px;
+  width: 30px;
 }
 
 .copyright {
