@@ -1,0 +1,186 @@
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: 'Roboto', sans-serif;
+  font-family: 'Inconsolata', monospace;
+}
+
+a {
+  text-decoration: none;
+}
+
+.navbar-brand img {
+  width: 30px;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+  color: lightpink;
+}
+
+p {
+  margin: 0px;
+}
+
+.contato {
+  color: lightpink;
+  font-size: 25px;
+  background-color: #312c31;
+  text-align: center;
+  height: 100px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.insta-link {
+  color: lightpink;
+}
+
+.insta-link:hover {
+  color: white;
+  text-decoration: none;
+}
+
+.instagram-icon {
+  background-color: #1a161a;
+  width: 15px;
+}
+
+.copyright {
+  width: 100%;
+  text-align: center;
+  -webkit-box-ordinal-group: 5;
+      -ms-flex-order: 4;
+          order: 4;
+  font-size: 14px;
+  border-top: 1px solid #1a161a;
+  padding: 2px 0;
+  background-color: #1a161a;
+  color: white;
+}
+
+@media (min-width: 1024px) {
+  .copyright {
+    -webkit-box-ordinal-group: 4;
+        -ms-flex-order: 3;
+            order: 3;
+  }
+}
+
+.about-us {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  background-color: lightpink;
+}
+
+.card {
+  width: 325px;
+  border-color: white;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-left: 100px;
+  width: 325px;
+  border-color: white;
+  align-items: center;
+}
+
+.card-img-top {
+  margin-top: 20px;
+  height: 238px;
+}
+
+.card-title {
+  text-align: center;
+  color: black;
+  font-weight: bold;
+  font-size: 17px;
+  height: 37px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.card-body {
+  text-align: center;
+}
+
+.card-img-top {
+  margin-top: 20px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.card-title {
+  color: black;
+  font-size: 17px;
+  height: 37px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.card-body {
+  text-align: center;
+}
+
+@media (min-width: 1024px) {
+  .imagens {
+    width: 95%;
+  }
+}
+
+@media (min-width: 1040px) {
+  .projects {
+    margin-top: 50px;
+    margin-bottom: 140px;
+  }
+  .imagens {
+    margin-top: 80px;
+    width: 100%;
+  }
+}
+
+.about {
+  background-color: lightpink;
+}
+
+.about-logo {
+  width: 70%;
+  margin-left: 60px;
+}
+
+.about-body {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-top: 150px;
+}
+
+.col-lg-6 {
+  display: block;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: end;
+}
+/*# sourceMappingURL=style.css.map */
