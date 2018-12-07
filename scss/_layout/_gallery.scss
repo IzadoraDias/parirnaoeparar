@@ -32,3 +32,20 @@
     height: 250px;
     }
   }
+
+  @media (max-width: 768px) {
+    .gallery{
+        height: 650px;
+        display: flex;
+        margin-left: 170px;
+        
+    } 
+    .video {
+    width: 450px;
+    height: 300px;
+    }
+    .carousel-inner{
+     width: 450px;
+     height: 300px;
+    }
+  }
