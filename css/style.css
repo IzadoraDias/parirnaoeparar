@@ -148,20 +148,13 @@ p {
   text-align: center;
 }
 
-@media (min-width: 1024px) {
-  .imagens {
-    width: 95%;
-  }
-}
-
-@media (min-width: 1040px) {
-  .projects {
-    margin-top: 50px;
-    margin-bottom: 140px;
-  }
-  .imagens {
-    margin-top: 80px;
-    width: 100%;
+@media (max-width: 425px) {
+  .container-jana {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
   }
 }
 
@@ -218,7 +211,6 @@ p {
     -webkit-box-pack: center;
         -ms-flex-pack: center;
             justify-content: center;
-    padding: 30px;
   }
   .video {
     width: 400px;
@@ -230,13 +222,13 @@ p {
   }
 }
 
-@media (max-width: 768px) {
+@media (min-width: 768px) {
   .gallery {
     height: 650px;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
-    margin-left: 170px;
+    margin-left: 150px;
   }
   .video {
     width: 450px;

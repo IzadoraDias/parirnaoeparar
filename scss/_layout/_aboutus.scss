@@ -48,24 +48,9 @@
     }
     }
     
-       @media (min-width: 768px){
-    }
-    
-    @media (min-width: 1024px){
-    .imagens{
-      width: 95%
-    }
-    }
-    
-    @media (min-width: 1040px){
-      .projects{
-        margin-top: 50px;
-        margin-bottom: 140px;
-    
+    @media (max-width: 425px) {
+      .container-jana{
+      display: flex;
+      flex-wrap: wrap;
       }
-    
-    .imagens{
-      margin-top: 80px;
-      width: 100%;
-    }
-    }
+    } 

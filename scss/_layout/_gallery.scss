@@ -21,7 +21,6 @@
         display: flex;
         align-items: center;
         justify-content: center;
-        padding: 30px
     } 
     .video {
     width: 400px;
@@ -33,11 +32,11 @@
     }
   }
 
-  @media (max-width: 768px) {
+  @media (min-width: 768px) {
     .gallery{
         height: 650px;
         display: flex;
-        margin-left: 170px;
+        margin-left: 150px;
         
     } 
     .video {
