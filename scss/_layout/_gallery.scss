@@ -14,3 +14,21 @@
     display: block;
     justify-content: end;
 }
+
+@media (max-width: 425px) {
+    .gallery{
+        height: 600px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 30px
+    } 
+    .video {
+    width: 400px;
+    height: 250px;
+    }
+    .carousel-inner{
+    width: 400px;
+    height: 250px;
+    }
+  }

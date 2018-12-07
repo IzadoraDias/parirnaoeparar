@@ -205,4 +205,28 @@ p {
       -ms-flex-pack: end;
           justify-content: end;
 }
+
+@media (max-width: 425px) {
+  .gallery {
+    height: 600px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    padding: 30px;
+  }
+  .video {
+    width: 400px;
+    height: 250px;
+  }
+  .carousel-inner {
+    width: 400px;
+    height: 250px;
+  }
+}
 /*# sourceMappingURL=style.css.map */
